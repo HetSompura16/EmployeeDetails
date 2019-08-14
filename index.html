@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Employee</title>
+</head>
+<body>
+    <h1>Employee Info</h1>
+    <p></p>
+    <script>
+    var employee = {
+        name:['Biff','Henderson',],
+        employeeNumber: 30573,
+        department: 'Reposessions',
+        interests:  ['the Mob','fast cars','baseball'],
+        active: true
+    };
+    
+    var output = document.querySelector('p');
+
+    output.textContent = 'Please welcome our new member of '+employee.department + ' department.' + ' Mr.' + employee.name[0] + ' ' + employee.name[1] + '.' +'You may all contact him through our portal, his email id is ' + employee.employeeNumber +'@companyportal.com, where ' + employee.employeeNumber + ' is his employee identification number.' +  employee.name[0] + ' likes to watch ' + employee.interests[2] + ',also he is intrested in ' +  employee.interests[0] + ' and ' +  employee.interests[1] + '. ' + employee.name[0] + ' while your account status is '+employee.active+' you will receive all the notifications for upcoming meetings.';
+   
+
+    </script>
+</body>
+</html>
+
